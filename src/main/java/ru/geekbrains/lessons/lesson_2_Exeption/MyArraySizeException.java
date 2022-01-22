@@ -9,4 +9,3 @@ public class MyArraySizeException extends RuntimeException{
         super(message);
     }
 }
-//IndexOutOfBoundsException
