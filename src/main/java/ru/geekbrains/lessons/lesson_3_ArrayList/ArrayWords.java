@@ -23,7 +23,7 @@ import java.util.*;
 public class ArrayWords {
     public static void main(String[] args) {
 
-        //WordsCollected();
+        WordsCollected();
 
          telephoneDirectory();
 
