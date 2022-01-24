@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.lessons.lesson_4_javafx.ExampleController">
+    <Button fx:id="btnClick" layoutX="300" layoutY="200" onAction="#click" text="CLICK ME" textFill="#338a30" />
+    <Label fx:id="LabelText" layoutX="300" layoutY="100" minHeight="50" minWidth="10" text="Hello" />
+    <TextFlow layoutX="64.0" layoutY="64.0" prefHeight="200.0" prefWidth="200.0" />
+
+</AnchorPane>
