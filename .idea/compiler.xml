@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java_Core_2" />
-        <module name="Java_Core_2-master" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chat_Client" target="17" />
+      <module name="Chat_Server" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
