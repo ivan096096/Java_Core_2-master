@@ -10,7 +10,7 @@ public class ThreadHomework extends Thread {
   }
 
   public static void oneMethod() throws InterruptedException {
-    final int size = 10000000;
+    final int size =10000000;
     float[] arr = new float[size];
     Arrays.fill(arr, 1);
     long start = System.currentTimeMillis();
@@ -28,7 +28,8 @@ public class ThreadHomework extends Thread {
 
 
   public static void twoMethod() throws InterruptedException {
-    final int size = 10000000;
+    final int size =
+        10000000;
     final int half = size / 2;
     float[] arr2 = new float[size];
     Arrays.fill(arr2, 1);
